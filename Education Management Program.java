@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+import java.util.List;
+import java.util.LinkedList;
 import java.util.Scanner;
 class Student {
     String name;
@@ -10,14 +11,15 @@ class Student {
 }
 public class StudentManager {
     public static void main(String[] args) {
-        ArrayList<Student> list = new ArrayList<>();
+        List<Student> list = new LinkedList<>();
         Scanner sc = new Scanner(System.in);
-        while (true) {
-            System.out.println("1. Add");
-            System.out.println("2. Show");
-            System.out.println("3. Search");
-            System.out.println("4. Exit");
-            System.out.print("Choice: ");
+            while (true) {
+                System.out.println();
+                System.out.println("1. Add");
+                System.out.println("2. Show");
+                System.out.println("3. Search");
+                System.out.println("4. Exit");
+                System.out.print("Choice: ");
             int c = sc.nextInt();
             sc.nextLine();
             if (c == 1) {
