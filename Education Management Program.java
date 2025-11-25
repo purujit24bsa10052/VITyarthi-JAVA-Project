@@ -1,4 +1,4 @@
-public import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Scanner;
 class Student {
     String name;
@@ -59,6 +59,4 @@ public class StudentManager {
         }
         sc.close();
     }
-} Main {
-    
 }
